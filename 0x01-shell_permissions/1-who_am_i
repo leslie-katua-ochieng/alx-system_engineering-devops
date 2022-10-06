@@ -1,0 +1,4 @@
+
+#!/bin/bash
+whoami
+chmod u+x 1-who_am_i
