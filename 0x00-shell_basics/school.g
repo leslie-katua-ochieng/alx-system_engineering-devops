@@ -1,2 +1,3 @@
-string SCHOOL School data
-School 
+0 string SCHOOL School data
+!:mine School 
+
