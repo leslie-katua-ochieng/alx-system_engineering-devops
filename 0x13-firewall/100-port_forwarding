@@ -1,0 +1,14 @@
+sudo nano /etc/default/ufw
+sudo ufw route allow 8080/tcp
+sudo ufw reload
+
+# /etc/default/ufw
+
+# Set the default forward policy to ACCEPT so that ufw can forward traffic
+DEFAULT_FORWARD_POLICY="ACCEPT"
+
+# Disable logging of dropped packets
+LOGDROPDUMPS="no"
+
+# Enable ufw firewall
+ENABLED=yes
